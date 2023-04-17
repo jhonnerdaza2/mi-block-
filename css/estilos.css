@@ -2,10 +2,21 @@ body
 {
     color:greenyellow;
     text-align: center;
+<<<<<<< HEAD
     font-family: "courier";
     font-size: 16px;
+=======
+    font-family: "Arial";
+    font-size: 16px; 
+>>>>>>> cabecera
 }
-#container
+#cabecera 
+ background: red;
+ color: white; 
+ front-weight: "bold"; 
+ margin: 0; 
+ padding: 0.5em; 
+
 {
  width: 70%;
  padding: 1em;
