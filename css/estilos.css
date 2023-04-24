@@ -1,26 +1,61 @@
-body 
+cuerpo
 {
-    color:greenyellow;
-    text-align: center;
-    font-family: "Arial";
-    font-size: 16px; 
+    fondo: #1e1f24;
+    color: #333;
+    alineación de texto: centro;
+    familia tipográfica: Arial;
+    tamaño de fuente: 16px;
+    margen: 0;
+    relleno: 0;
 }
-#cabecera 
- background: red;
- color: white; 
- front-weight: "bold"; 
- margin: 0; 
- padding: 0.5em; 
 
+#cabecera
 {
- width: 70%;
- padding: 1em;
- text-align: left;
- border: 1px solid red;
- margin: 0 auto;
+    fondo: #37488b;
+    sombra de caja: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    color blanco;
+    fuente-peso: negrita;
+    margen: 0;
+    relleno: 0,5 em;
+}
 
-}
-#container h1
+#cabecera #logo
 {
-     front-size: 20xp;
+    ancho: 20px;
+    alineación vertical: medio;
 }
+
+#cabecera #eslogan
+{
+    relleno: 0 0 0 1em;
+    peso de fuente: normal;
+    tamaño de fuente: 0,8 em;
+}
+
+#envase
+{
+    ancho: 70%;
+    relleno: 0;
+    alineación de texto: izquierda;
+    borde: 1px sólido #DDD;
+    margen: 0 automático;
+}
+
+#contenedor h1
+{
+    tamaño de fuente: 20px;
+}
+#correo
+{
+    fondo: blanco;
+    relleno: 1em;
+}
+
+#pie de página
+{
+    fondo: #777;
+    color blanco;
+    alineación de texto: centro;
+    relleno: 0,5 em;
+}
+
